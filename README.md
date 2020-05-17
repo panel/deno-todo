@@ -14,8 +14,8 @@ I installed it on OSX using [homebrew](https://brew.sh/) with the following
 command:
 
 ```sh
-$> brew install deno
-$> deno --version
+$ brew install deno
+$ deno --version
 deno 1.0.0
 v8 8.4.300
 typescript 3.9.2
@@ -46,7 +46,7 @@ make sure you haven't modfied [todos.json](./todos.json). Finally, you can
 execute them using `deno`'s built in test runner:
 
 ```sh
-$> deno test --allow-net test.ts
+$ deno test --allow-net test.ts
 unning 5 tests
 test GET todos ... ok (2ms)
 test POST todo ... ok (2ms)
